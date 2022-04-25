@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header {
+    background-color: rgb(76, 175, 80);
+    
+}
+#nav li {
+    display: inline-block;
+    text-align: center;
+}
+#nav li h1 {
+    margin: 0 24px;
+}
+#nav li h2 {
+    padding: 0 15px;
+}
+#home {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#about {
+    color: rgb(76, 175, 80);
+    text-align: center;
+    font-size: x-large;
+    padding: 15px;
+}
+#about-header{
+    text-decoration: underline;
+
+}
+
+#projects {
+    background-color: rgb(194, 192, 195);
+}
+#projects .projects-head {
+    text-align: center;
+    padding: 15px;
+    text-decoration: underline;
+}
+#projects .projects-content{
+    display: flex;
+    width: 50%;
+}
+#projects .projects-img img {
+    width: 500px;
+    margin: 0 240px;
+}
+#projects .projects-list {
+    margin: 0 48px;
+    display: inline-block;
+}
+#chievements{
+    background-color: black;
+}
+#chievements-header{
+    text-align: center;
+    color: rgb(76, 175, 80);
+    text-decoration: underline;
+}
+#chievements-content {
+    padding: 0 24px;
+    color: white;
+}
+#contact{
+    background-color: grey;
+}
+#contact-header{
+    text-align: center;
+    text-decoration: underline;
+}
+#contact-content {
+    display: inline-block;
+    padding: 0 42%;
+}
+#link {
+    background-color: rgb(76, 175, 80);
+}
+#link li {
+    display: inline-block;
+}
+#coppy{
+    color: rgb(76, 175, 80);
+    background-color: black;
+}
