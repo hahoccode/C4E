@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 18px 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    border: groove;
+    margin-left: 32%;
+    padding: 18px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    border-radius: 10px;
+    line-height: 2.0;
+    margin-bottom: 12px;
+}
+.card-price{
+    font-family: sans-serif;
+    color: blueviolet;
+}
+.card em{
+    border: none;
+    background-color: rgba(137, 43, 226, 0.297);
+    padding: 1px;
+    border-radius: 5px;
+}
+.card p {
+    font-family: sans-serif;
+}
+.card a {
+    text-decoration: none;
+    border: solid;
+    width: 18%;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 6px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+}
