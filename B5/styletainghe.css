@@ -17,7 +17,7 @@ header{
     border-radius: 10px;
     line-height: 2.0;
     margin-bottom: 12px;
-    width: 500px;
+    width: 400px;
     margin: 0 50px;
     display: flex;
     flex-direction: column;
@@ -49,7 +49,7 @@ header{
     font-weight: 600;
 }
 .card img {
-    width: 450px;
+    width: 350px;
     border-radius: 10px;
 }
 .card-row{
