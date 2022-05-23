@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Flex:opsz@8..144&display=swap');
+
+* {
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: rgb(160, 88, 65);
+    --text-color: rgb(160, 88, 65);
+    --bg-color: white;
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 350px;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: var(--bg-color);
+
+}
+
+.cart-header {
+    text-transform: uppercase;
+    color: var(--main-color); 
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+#close-cart {
+    outline-color: white;
+    color: var(--main-color);
+    
+}
+.cart-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    top: 50%;
+    transform:translateX(240%);
+}
+.cart-box{
+    display: grid;
+    grid-template-columns: 27% 36% 10%;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.cart-img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    padding-right: 10px;
+    padding-left: 34px;
+    
+}
+.detail-box{
+    display: grid;
+    row-gap: 0.5rem;
+    color: var(--main-color);
+}
+.care-product-title {
+    font-size: 1rem;
+}
+.cart-price{
+    font-weight: 600;
+}
+.cart-quantity{
+    border: 1px solid var(--main-color);
+    outline-color: var(--main-color);
+    color: var(--main-color);
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+#remove-items{
+    opacity: 0;
+    color: var(--main-color);
+}
+#remove-items:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+.total {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid var(--main-color); 
+    margin-top: 1.5rem;
+    color: var(--main-color);
+    font-size: 2rem;
+    flex-direction: column;
+    padding-left: 34px;
+    padding-bottom: 34px ;
+}
+.total-title{
+      font-weight: 400;
+}
+.view-cart{
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    background-color: var(--main-color);  
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid;
+    width: 75%;
+    height: 50px;
+}
+.btn-view-cart{
+    color: white;
+    font-size: 1.5rem;
+}

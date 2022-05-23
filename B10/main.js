@@ -1,28 +1,25 @@
-let yourMounth = prompt("Nhap so:  ")
+// const timeEle = document.querySelectorAll(".clock-container")
 
-switch (yourMounth) {
-    case 1:
-    case 2:
-    case 3:
-        console.log("spring")
-        break;
+// setInterval (() => {
+//     const seconds = new Date().getSeconds();
+//     const secondsEle = document.getElementById("seconds");
+//     secondsEle.innerText = seconds;
+// },1000);
+// setInterval (() => {
+//     const hour = new Date().getHours();
+//     const hourEle = document.getElementById("hour");
+//     hourEle.innerText = hour;
+// },1000);
+// setInterval (() => {
+//     const minutes = new Date().getMinutes() ;
+//     const minutesEle = document.getElementById("minutes");
+//     minutesEle.innerText = minutes ;
+// },1000);
 
-    case 4:
-        console.log("april")
-        break;
-    case 5:
-        console.log("May")
-        break;
 
-    default:
-        console.log("khong phai la thang")
-        break;
-}
-let menuCoffee = [
-    "capuchino",
-    "black",
-    "bac xiu",
-    "nau khoi",
-    "ca phe trung",
-];
-console.table(menuCoffee);
+const dateEle = document.querySelector(".clock-info");
+
+const newEleHtml = "date";
+dateEle.innerText = newEleHtml;
+
+console.log(dateEle);
