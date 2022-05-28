@@ -16,10 +16,20 @@
 //     minutesEle.innerText = minutes ;
 // },1000);
 
+const timeEle = document.querySelectorAll("span");
+const dayByDay = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
+setInterval(() => {
+    const currentTime = new Date();
 
-const dateEle = document.querySelector(".clock-info");
+    timeEle[0].innerText = dayByDay[currentTime.getDay()];
+    timeEle[1].innerText = currentTime.getHours();
+    timeEle[2].innerText =
+        currentTime.getMinutes() < 10
+            ? "0" + currentTime.getMinutes()
+            : currentTime.getMinutes();
+    timeEle[3].innerText =
+        currentTime.getSeconds() < 10
+            ? "0" + currentTime.getSeconds()
+            : currentTime.getSeconds();
 
-const newEleHtml = "date";
-dateEle.innerText = newEleHtml;
-
-console.log(dateEle);
+}, 1000);
