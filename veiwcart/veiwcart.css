@@ -45,6 +45,7 @@
     grid-template-columns: 16% 29% 15% 15% 8%;
     gap: 2rem;
     margin-top: 5rem;
+    align-items: start;
 }
 .cart-img {
     height: 100px;
@@ -105,11 +106,13 @@
     line-height: 3;
     border-bottom: 1px solid var(--main-color);
     padding-bottom: 138px;
+    flex-wrap: wrap;
 }
 
 .total-ship>a{
     text-decoration: underline;
     color: var(--main-color);
+    width: 100%;
 }
 .total-sub{
     display: flex;
