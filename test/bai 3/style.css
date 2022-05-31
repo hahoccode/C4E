@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto+Flex:opsz@8..144&display=swap');
+
+* {
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 34px;
+}
+
+.sub-search {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 8px;
+    height: fit-content;
+
+
+}
+
+.search-icon {
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+.search-input {
+    opacity: 0.7;
+
+}
+
+.nav-search {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-content {
+    padding:4px 16px;
+    background-color: white;
+}
+
+.nav-content:hover {
+    color: white;
+    background-color: violet;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-box {
+    width: 30%;
+    display: flex;
+    padding: 24px;
+    margin: 8px;
+}
+.content-box:hover{
+    border-radius: 10px;
+    margin: 13px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: 1px solid rgb(153, 189, 227);
+    transition: 0.3s;
+}
+.content-box>img {
+    height: 90px;
+    width: 90px;
+}
+.content-name{
+    font-size: 14px;
+}
+.content-address{
+    font-size: 14px;
+    font-weight: 500;
+}
+.hobby{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hobby-content{
+    border: 1px solid #0080ff71;
+    border-radius: 4px;
+    color: #0000ff91;
+    margin: 4px;
+    font-size: 10px;
+    padding: 2px;
+}
